@@ -1,0 +1,35 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{E0EE513E-A611-52BC-AE93-9398B1E4F428}") = "Videojuego Laberinto", "Assembly-CSharp-firstpass.csproj", "{D0FFCFC0-8DD9-639E-CC92-67D3BE6BDDEE}"
+EndProject
+Project("{E0EE513E-A611-52BC-AE93-9398B1E4F428}") = "Videojuego Laberinto", "Assembly-CSharp.csproj", "{1A35733F-6D20-8325-D5C7-D29C11EF3253}"
+EndProject
+Project("{E0EE513E-A611-52BC-AE93-9398B1E4F428}") = "Videojuego Laberinto", "Assembly-CSharp-Editor.csproj", "{A2093D83-BAC3-AF9A-7CF5-85CF941727B0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D0FFCFC0-8DD9-639E-CC92-67D3BE6BDDEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0FFCFC0-8DD9-639E-CC92-67D3BE6BDDEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0FFCFC0-8DD9-639E-CC92-67D3BE6BDDEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0FFCFC0-8DD9-639E-CC92-67D3BE6BDDEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A35733F-6D20-8325-D5C7-D29C11EF3253}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A35733F-6D20-8325-D5C7-D29C11EF3253}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A35733F-6D20-8325-D5C7-D29C11EF3253}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A35733F-6D20-8325-D5C7-D29C11EF3253}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2093D83-BAC3-AF9A-7CF5-85CF941727B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2093D83-BAC3-AF9A-7CF5-85CF941727B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2093D83-BAC3-AF9A-7CF5-85CF941727B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2093D83-BAC3-AF9A-7CF5-85CF941727B0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
