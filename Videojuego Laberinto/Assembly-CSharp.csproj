@@ -95,6 +95,7 @@
      <Compile Include="Assets\Scripts\ApagarAntorcha.cs" />
      <Compile Include="Assets\Scripts\AyudarBot.cs" />
      <Compile Include="Assets\Scripts\BotonJugar.cs" />
+     <Compile Include="Assets\Scripts\CogerItem.cs" />
      <Compile Include="Assets\Scripts\Desbloqueo.cs" />
      <Compile Include="Assets\Scripts\Esqueleto.cs" />
      <Compile Include="Assets\Scripts\Inventario.cs" />
