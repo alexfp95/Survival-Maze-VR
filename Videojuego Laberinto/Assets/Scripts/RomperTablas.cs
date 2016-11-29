@@ -18,7 +18,7 @@ public class RomperTablas : MonoBehaviour {
 	void OnCollisionStay (Collision other) {
 		if (other.gameObject.tag == "Player") {
 			if (inventario.itemActual ("Hacha")) {
-				if (Input.GetMouseButtonDown (0)) {
+				if ((Input.GetMouseButtonDown (0)) || (Input.GetAxis("Fire1") != 0)) {
 					source.PlayOneShot (clip, 0.5f);
 					this.gameObject.GetComponentInChildren<MeshRenderer> ().enabled = false;
 					Destroy (this.gameObject.GetComponent<Rigidbody> ());

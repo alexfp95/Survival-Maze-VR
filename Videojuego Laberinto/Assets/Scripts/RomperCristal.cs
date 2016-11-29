@@ -18,7 +18,7 @@ public class RomperCristal : MonoBehaviour {
 	void OnCollisionStay (Collision other) {
 		if (other.gameObject.tag == "Player") {
 			if (inventario.itemActual ("Piedra")) {
-				if (Input.GetMouseButtonDown (0)) {
+				if ((Input.GetMouseButtonDown (0)) || (Input.GetAxis("Fire1") != 0)) {
 					source.PlayOneShot (clip, 0.5f);
 					this.gameObject.GetComponent<MeshRenderer> ().enabled = false;
 					Destroy (this.gameObject.GetComponent<Rigidbody> ());
