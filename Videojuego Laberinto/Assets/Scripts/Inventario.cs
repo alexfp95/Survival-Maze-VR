@@ -25,7 +25,7 @@ public class Inventario : MonoBehaviour {
 		navegacion ();
 		Debug.DrawRay (inicioRayCast.position, inicioRayCast.forward, Color.white);
 		if (Physics.Raycast (inicioRayCast.position, inicioRayCast.forward, out hit)) {
-			if (Input.GetKey (KeyCode.E)) {
+			if ((Input.GetKey (KeyCode.E)) || (Input.GetAxis("Fire2") != 0)) {
 				if (hit.collider.CompareTag ("Pulsador")) {
 					Pulsador p = hit.collider.gameObject.GetComponent<Pulsador> ();
 					if (!p.isActive ()) {

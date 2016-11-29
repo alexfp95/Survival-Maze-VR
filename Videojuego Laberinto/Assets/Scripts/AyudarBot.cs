@@ -32,7 +32,7 @@ public class AyudarBot : MonoBehaviour {
 	void OnCollisionStay (Collision other) {
 		if (other.gameObject.tag == "Player") {
 			if (inventario.itemActual ("Juguete")) {
-				if (Input.GetMouseButtonDown (0)) {
+				if ((Input.GetMouseButtonDown (0)) || (Input.GetAxis ("Fire1") != 0)) {
 					Destroy (GameObject.FindGameObjectWithTag ("MuroInvisible"));
 					Destroy (this.gameObject.GetComponent<Rigidbody> ());
 					source.PlayOneShot (clipGracias, 0.5f);
