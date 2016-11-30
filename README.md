@@ -5,10 +5,11 @@
 Alexis Daniel Fuentes Pérez, Natalie Dajakaj
 
 **Executable Versions:**
-- [Linux x86 + x86_64](https://drive.google.com/open?id=0B06ZoyLKtb0CWmlxOThES19LcHM)
-- [Mac OS X](https://drive.google.com/open?id=0B06ZoyLKtb0CdEhfNm85UXhxaFU)
-- [Windows x86](https://drive.google.com/open?id=0B06ZoyLKtb0CclVVSEktM1gxTWs)
-- [Windows x86_64](https://drive.google.com/open?id=0B06ZoyLKtb0CT0pFTkRLTnMyVDA)
+- [Linux x86 + x86_64](https://drive.google.com/open?id=0B06ZoyLKtb0CMzNCaDN5dHJQOXM)
+- [Mac OS X](https://drive.google.com/open?id=0B06ZoyLKtb0Cd0Z6ZUVnN1NFQVE)
+- [Windows x86](https://drive.google.com/open?id=0B06ZoyLKtb0CSHh0Y3ZCcXI5bkk)
+- [Windows x86_64](https://drive.google.com/open?id=0B06ZoyLKtb0CY3hGa3ZTRjNJTkE)
+- [Android VR](https://drive.google.com/open?id=0B06ZoyLKtb0Cb25tVTBpTE5OVjg)
 
 **Important!**
 
