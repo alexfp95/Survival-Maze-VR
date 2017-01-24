@@ -23,7 +23,7 @@ public class CogerItem : MonoBehaviour, IGvrGazeResponder {
 	}
 
 	public void OnGazeExit () {
-
+		
 	}
 
 	public void cogerItem () {

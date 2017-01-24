@@ -18,9 +18,16 @@ public class Pulsador : MonoBehaviour {
 	}
 
 	public void push () {
-		source.PlayOneShot (clip, 0.5f);
-		active = true;
-		transform.Rotate (180, 0, 0);
+		if (!active) {
+			if (this.gameObject.tag == "Reset") {
+				GameObject.FindGameObjectWithTag ("PuertaSalida").GetComponent<Desbloqueo> ().reset ();
+			} else {
+				source.PlayOneShot (clip, 0.5f);
+				active = true;
+				transform.Rotate (180, 0, 0);
+				GameObject.FindGameObjectWithTag ("PuertaSalida").GetComponent<Desbloqueo> ().insertar (code);
+			}
+		}
 	}
 
 	public bool isActive () {
